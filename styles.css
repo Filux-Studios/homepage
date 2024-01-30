@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #42a5f5;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #64b5f6;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #1976d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #42a5f5;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #64b5f6;
+    color: #fff;
+}
+
