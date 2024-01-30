@@ -60,3 +60,34 @@ footer {
     color: #fff;
 }
 
+/* ... (eksisterende CSS-stil) ... */
+
+.jobs {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    overflow-x: auto;
+}
+
+.job-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.job-tile {
+    flex: 0 0 calc(33.333% - 40px); /* Maks 3 job-tiles per linje med mellomrom */
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.job-tile h3 {
+    margin-top: 0;
+}
+
+.job-tile p {
+    margin-bottom: 20px;
+}
