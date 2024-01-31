@@ -56,7 +56,7 @@ header h1 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #64b5f6;
+    background-color: #C78C64;
     color: #fff;
 }
 
@@ -72,6 +72,7 @@ footer {
 .job-container {
     display: flex;
     justify-content: space-around;
+    background-color: #f8f4ef;
     margin-top: 20px;
     flex-wrap: wrap;
 }
