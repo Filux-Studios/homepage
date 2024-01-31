@@ -93,6 +93,23 @@ footer {
 }
 
 
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #1976d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #15599e;
+}
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
     header {
