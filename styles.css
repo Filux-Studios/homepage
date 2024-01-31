@@ -91,3 +91,40 @@ footer {
 .job-tile p {
     margin-bottom: 20px;
 }
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .features {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+
+    .cta-button {
+        margin-top: 20px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .jobs {
+        padding: 30px;
+    }
+
+    .job-tile {
+        flex: 0 0 100%;
+    }
+}
